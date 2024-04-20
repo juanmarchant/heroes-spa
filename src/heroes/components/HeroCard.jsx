@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
-const CharactersByHero = ({alter_ego, characters})=>{
-    return(alter_ego === characters) 
+const CharactersByHero = ({ alter_ego, characters }) => {
+    return (alter_ego === characters)
         ? <></>
-        :<p className="card-text">{characters}</p>
+        : <p className="card-text">{characters}</p>
 };
 
 export const HeroCard = ({
@@ -19,9 +19,9 @@ export const HeroCard = ({
 
 
     return (
-        <div className="col">
+        <div className="col animate__animated animate__fadeIn">
             <div className="card">
-                <div className="row no-gutters">
+                <div className="row no-gutters ">
                     <div className="col-4">
                         <img src={heroImageUrl} className="card-img" alt={superhero} />
                     </div>
@@ -36,7 +36,7 @@ export const HeroCard = ({
                                 <small className="text-muted">{first_appearance}</small>
                             </p>
 
-                            <CharactersByHero alter_ego={alter_ego} characters={characters}/>
+                            <CharactersByHero alter_ego={alter_ego} characters={characters} />
                             <Link to={`/hero/${id}`}>
                                 Mas...
                             </Link>
