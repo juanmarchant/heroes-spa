@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroPage/> debe hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="row mt-5"
+  >
+    <div
+      class="col-4"
+    >
+      <img
+        alt="Hulk"
+        class="img-thumbnail animate__animated animate__fadeInLeft"
+        src="/assets/heroes/marvel-hulk.jpg"
+      />
+    </div>
+    <div
+      class="col-8"
+    >
+      <h3>
+        Hulk
+      </h3>
+      <ul
+        class="list-group list-group-flush "
+      >
+        <li
+          class="list-group-item"
+        >
+           
+          <b>
+            Alter ego: 
+            Bruce Banner
+          </b>
+        </li>
+        <li
+          class="list-group-item"
+        >
+           
+          <b>
+            Publisher: 
+            Marvel Comics
+          </b>
+        </li>
+        <li
+          class="list-group-item"
+        >
+           
+          <b>
+            First appearance: 
+            The Incredible Hulk #1
+          </b>
+        </li>
+      </ul>
+      <h5
+        class="mt-3"
+      >
+        Characters
+      </h5>
+      <p>
+        Bruce Banner
+      </p>
+      <button
+        class="btn btn-outline-primary "
+      >
+        Return
+      </button>
+    </div>
+  </div>
+</div>
+`;
